@@ -47,6 +47,8 @@ python3 -m unittest discover -s tests -v
 
 Python 3.9+ is sufficient. No packages, API keys, accounts, network access, or real customer data are needed.
 
+Japanese walkthroughs: [CSV row errors](docs/csv-row-errors-ja.md) and [Stripe/GitHub webhook verification](docs/webhook-signatures-ja.md).
+
 ## Disclosure and license
 
 BuildShelf publishes these examples and sells the linked source-code kits. This repository contains independent free examples, not the paid kit source. The examples are MIT licensed; see [LICENSE](LICENSE).
