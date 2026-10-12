@@ -51,6 +51,8 @@ Japanese walkthroughs: [CSV row errors](docs/csv-row-errors-ja.md) and [Stripe/G
 
 The tested CSV example is also explained in a [BuildShelf Zenn article](https://zenn.dev/buildshelf/articles/9e99b107e196c6) with the header, row-number, and exit-code decisions shown step by step.
 
+The webhook example is explained in a [BuildShelf Qiita article](https://qiita.com/buildshelf/items/3805b1a1b69ff32d213f) covering raw request bytes, Stripe's signed timestamp, GitHub's lack of a signed timestamp, and the limits of process-local duplicate tracking.
+
 ## Disclosure and license
 
 BuildShelf publishes these examples and sells the linked source-code kits. This repository contains independent free examples, not the paid kit source. The examples are MIT licensed; see [LICENSE](LICENSE).
