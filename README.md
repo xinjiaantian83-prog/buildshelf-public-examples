@@ -20,6 +20,10 @@ The script checks duplicate and required headers, column counts, product codes, 
 
 For column mapping, normalization, JSONL export, and a value-free error file, see [CSV Import Validator Mini](https://buildshelfkits.com/products/csv-validator-mini?utm_source=github&utm_medium=repository&utm_campaign=public_examples&utm_content=csv_mini). The [full CSV/Excel kit](https://buildshelfkits.com/products/csv-excel-import?utm_source=github&utm_medium=repository&utm_campaign=public_examples&utm_content=csv_full) adds staged promotion, rollback, and audit history. A longer [CSV validation guide](https://buildshelfkits.com/articles/csv-import-row-validation?utm_source=github&utm_medium=repository&utm_campaign=public_examples&utm_content=csv_guide) explains the boundary.
 
+## PDF to Excel workflow demo
+
+For teams that repeatedly copy invoice, order, or report fields into a fixed workbook, BuildShelf also offers a [Japanese PDF-to-Excel automation service](https://buildshelfkits.com/ja/services/pdf-excel-automation?utm_source=github&utm_medium=repository&utm_campaign=pdf_excel_service&utm_content=readme). The page includes a synthetic invoice PDF and its converted CSV so the source-to-row mapping can be checked without exposing customer data. It is a scoped implementation service, not a universal one-click OCR accuracy claim.
+
 ## Webhooks: verify the raw body before handling a duplicate
 
 ```sh
