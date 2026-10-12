@@ -49,6 +49,8 @@ Python 3.9+ is sufficient. No packages, API keys, accounts, network access, or r
 
 Japanese walkthroughs: [CSV row errors](docs/csv-row-errors-ja.md) and [Stripe/GitHub webhook verification](docs/webhook-signatures-ja.md).
 
+The tested CSV example is also explained in a [BuildShelf Zenn article](https://zenn.dev/buildshelf/articles/9e99b107e196c6) with the header, row-number, and exit-code decisions shown step by step.
+
 ## Disclosure and license
 
 BuildShelf publishes these examples and sells the linked source-code kits. This repository contains independent free examples, not the paid kit source. The examples are MIT licensed; see [LICENSE](LICENSE).
