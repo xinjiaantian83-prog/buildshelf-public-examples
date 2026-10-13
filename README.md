@@ -43,6 +43,10 @@ Protocol references: [Stripe's raw-body signature guidance](https://docs.stripe.
 
 For persistent SQLite receipt classification, see [Webhook Signature & Replay Protection Mini](https://buildshelfkits.com/products/webhook-signature-mini?utm_source=github&utm_medium=repository&utm_campaign=public_examples&utm_content=webhook_mini). The [full reliability kit](https://buildshelfkits.com/products/webhook-reliability?utm_source=github&utm_medium=repository&utm_campaign=public_examples&utm_content=webhook_full) adds queueing, retries, dead letters, and guarded replay. The [webhook reliability guide](https://buildshelfkits.com/articles/production-webhook-reliability?utm_source=github&utm_medium=repository&utm_campaign=public_examples&utm_content=webhook_guide) discusses the failure lifecycle.
 
+## Approval workflow: try the interactive demo
+
+Before buying or implementing an approval system, [try the free approval workflow demo](https://buildshelfkits.com/ja/demos/approval-workflow?utm_source=github&utm_medium=repository&utm_campaign=public_examples&utm_content=approval_demo) to inspect request, approval, return, and audit-history flows. The [Approval Workflow & Audit Trail source kit](https://buildshelfkits.com/ja/products/approval-workflow-audit-trail?utm_source=github&utm_medium=repository&utm_campaign=public_examples&utm_content=approval_kit) provides a Python/SQLite starting point for approval state, delegation, notifications, and audit trails. Integrating your own authentication, notification provider, and business rules remains your responsibility; this is not a hosted production approval service.
+
 ## Tests
 
 ```sh
