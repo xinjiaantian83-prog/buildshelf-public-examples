@@ -1,6 +1,17 @@
 # BuildShelf public examples
 
-Small, runnable Python examples for two common import and webhook mistakes. They use only the Python standard library and synthetic data. Each example is useful on its own; neither is a hosted service or a production-ready application.
+Small, runnable Python examples for common import, webhook, and change-monitoring mistakes. They use only the Python standard library and synthetic data. Each example is useful on its own; none is a hosted service or a production-ready application.
+
+## Change monitoring: a failed fetch is not unchanged
+
+Read [the last-good-baseline tutorial](docs/last-good-baseline.md) and run the [independent free sample](change_monitor/demo.py):
+
+```sh
+python3 change_monitor/demo.py
+python3 -m unittest discover -s tests -v
+```
+
+The fictional sequence prints `initial`, `unchanged`, `unavailable`, `unchanged`, `changed`, `changed`. A failed read preserves the last successful fingerprint. Run `python3 change_monitor/demo.py --simulate-failure` to print `unavailable` and exit with code `2`, not a successful monitoring result. No external requests are made. The tutorial links to actual-output demos and explains the paid kit's different scope. Prepared with AI assistance and checked with synthetic tests.
 
 ## CSV: report row errors before importing
 
